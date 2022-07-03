@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pramitss Beauty</title>
+    <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./lib/fontawesome-6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./css/lightslider.css" />
+    <link rel="stylesheet" href="./css/site.css" />
+	<link rel="icon" href="./img/logo/logo-2.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">                    
+                    <img src="./img/logo/logo-2.png" alt="Pramitss Beauty" style="height: 35px;"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="menuBar" class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <button class="nav-link text-dark" onclick="moveTo('beautyNews')">Berita Kecantikan</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link text-dark" onclick="moveTo('homepage')">Beranda</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link text-dark" onclick="moveTo('profile')">Profil</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link text-dark" onclick="moveTo('products')">Produk</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link text-dark" onclick="moveTo('testimoni')">Testimoni</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link text-dark" onclick="moveTo('contact')">Kontak</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <main role="main" class="">
+			<div style="background-image: url('./img/home/background-home.png'); background-repeat: no-repeat; background-size: auto;">
+				<div id="homepage" class="container page-section">
+					<div class="row">
+						<div class="col-6 text-center">
+							<img src="./img/home/picture-1.png"/>
+							<h5>
+								Jadikan kulit anda semakin cantik dan sehat dengan produk yang kami tawarkan!<br />
+								Dapatkan penawaran spesial untuk tiap produk setiap hari!
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="background-image: url('./img/home/background-1.png'); background-repeat: no-repeat; background-size: auto;">
+				<div id="beautyNews" class="container page-section">        
+					<h1>Berita Kecantikan</h1>
+					<div class="container">
+						<div class="row">
+							<div class="col-6">
+								<div class="news-block">
+									<h6>Being Savvy To Natural Ingredients</h6>
+									<p>
+										When seeking any customer product to be as natural as possible, 
+										whether it is in makeup, skincare or healthcare that includes 
+										nutritional supplements , label...
+									</p>
+									<div class="text-end">
+										<button class="btn btn-warning">Lanjut</button>
+									</div>
+								</div>                    
+								<div class="news-block">
+									<h6>Moving Forward Despite Devastating News</h6>
+									<p>
+										Well folks, I am facing another major health crisis with my husband 
+										and though I am committed to his healing, I am determined to be better 
+										at this game than I was last time...
+									</p>
+									<div class="text-end">
+										<button class="btn btn-warning">Lanjut</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 d-flex align-items-center justify-content-center top-rounded-border">
+								<img class="top-rounded-border-img" src="./img/news/beauty-news-1.jpeg" alt="">
+								<img class="top-rounded-border-add-1" src="./img/icons/bird.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="background-image: url('./img/home/background-2.png'); background-repeat: no-repeat; background-size: auto;">
+				<div id="profile" class="container page-section">        
+					<h1>Profil</h1>
+					<div class="container">
+						<div class="row">
+							<div class="col-6 text-center">
+								<div>
+									<p>Kami adalah perusahaan kecantikan yang sudah berkiprah selama sekitar 
+										1 tahun. Dengan pengalaman tersebut, kami dapat membuktikan bahwa kami 
+										mampu menyediakan produk kecantikan terbaik untuk konsumen yang ingin 
+										merawat dan memperindah penampilannya. Tujuan utama dan terbesar kami 
+										adalah membuat seluruh Wanita cantik dan percaya diri, sehingga 
+										kebahagiaan yang selama ini diimpikan dapat tercapai.
+									</p>                        
+								</div>                    
+								<div class="mt-5">
+									<h5><span>Tim Kami</span></h5>
+									<div class="row-img mt-3">
+										<div class="profile-img">
+											<img class="rounded-circle shadow-1-strong mb-2"
+												src="./img/profiles/profile-mita.jpeg" alt=""
+												style="width: 100px; height: 100px;" />
+											<h6>Mita</h6>
+										</div>
+										<div class="profile-img">
+											<img class="rounded-circle shadow-1-strong mb-2"
+												src="./img/logo/logo.jpeg" alt=""
+												style="width: 100px; height: 100px;" />
+											<h6>Ratih</h6>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 d-flex align-items-center justify-content-center top-rounded-border">
+								<img class="top-rounded-border-img" src="./img/home/picture-2.JPG" alt="">
+								<img class="top-rounded-border-add-1" src="./img/icons/bird.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="background-image: url('./img/home/background-1.png'); background-repeat: no-repeat; background-size: auto;">
+				<div id="products" class="container page-section">        
+					<h1>Produk</h1>
+					<div class="container">
+						<section class="slider">
+							<ul id="autoWidth" class="cs-hidden">
+								<li class="item-a">
+									<div class="box">
+										<div class="slide-img">
+											<img alt="" src="./img/products/product-1.JPG">
+										</div>
+										<div class="detail-box">
+											<div class="type">
+												<a href="#">Varian Coklat</a>
+												<span>Big size 40gr</span>
+											</div>
+											<a href="#" class="price">Rp 49k</a>		
+										</div>	
+									</div>		
+								</li>		
+								<li class="item-b">
+									<div class="box">
+										<div class="slide-img">
+											<img alt="" src="./img/products/product-2.JPG">
+										</div>
+										<div class="detail-box">
+											<div class="type">
+												<a href="#">Varian Coklat</a>
+												<span>Travel size 15gr</span>
+											</div>
+											<a href="#" class="price">Rp 21k</a>		
+										</div>	
+									</div>		
+								</li>
+								<li class="item-c">
+									<div class="box">
+										<div class="slide-img">
+											<img alt="" src="./img/products/product-3.JPG">
+										</div>
+										<div class="detail-box">
+											<div class="type">
+												<a href="#">Varian Susu</a>
+												<span>Big size 40gr</span>
+											</div>
+											<a href="#" class="price">Rp 49k</a>		
+										</div>	
+									</div>		
+								</li>
+								<li class="item-d">
+									<div class="box">
+										<div class="slide-img">
+											<img alt="" src="./img/products/product-4.JPG">
+										</div>
+										<div class="detail-box">
+											<div class="type">
+												<a href="#">Varian Susu</a>
+												<span>Travel size 15gr</span>
+											</div>
+											<a href="#" class="price">Rp 21k</a>		
+										</div>	
+									</div>		
+								</li>
+								<li class="item-e">
+									<div class="box">
+										<div class="slide-img">
+											<img alt="" src="./img/products/product-5.JPG">
+										</div>
+										<div class="detail-box">
+											<div class="type">
+												<a href="#">Varian Teh Hijau</a>
+												<span>Big size 40gr</span>
+											</div>
+											<a href="#" class="price">Rp 49k</a>		
+										</div>	
+									</div>		
+								</li>
+								<li class="item-f">
+									<div class="box">
+										<div class="slide-img">
+											<img alt="" src="./img/products/product-6.JPG">
+										</div>
+										<div class="detail-box">
+											<div class="type">
+												<a href="#">Varian Teh Hijau</a>
+												<span>travel size 15gr</span>
+											</div>
+											<a href="#" class="price">Rp 21k</a>		
+										</div>	
+									</div>		
+								</li>  
+							</ul>
+						</section>
+					</div>
+				</div>    
+			</div>
+			<div style="background-image: url('./img/home/background-2.png'); background-repeat: no-repeat; background-size: auto;">
+				<div id="testimoni" class="container page-section">        
+					<h1>Testimoni</h1>
+					<div class="container">
+						<div class="text-center">
+							<h5>
+								Banyak sekali penilaian positif dari konsumen yang membeli produk kami, 
+								yang mana semuanya berkualitas baik. 
+								Berikut adalah testimoni mereka!
+							</h5>
+						</div>
+						<div id="slidingReviews" class="carousel slide text-center" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="container">
+										<div class="row">
+											<div class="col-lg-4">
+												<img class="review-img rounded-circle shadow-1-strong mb-4"
+													src="./img/logo/logo.jpeg" />
+												<div class="review-desc shadow mb-3 rounded">
+													<div class="mb-3">
+														<h5>Nindi</h5>
+														<ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+														</ul>
+													</div>
+													<p class="text-muted">
+														Seneng banget pakai masker pramitss beauty, sampai kecanduan! 
+														Enak banget maskernya, baru beberapa kali pemakaian udah ada hasilnya!
+													</p>
+												</div>
+											</div>
+											<div class="col-lg-4 d-none d-lg-block">
+												<img class="review-img rounded-circle shadow-1-strong mb-4"
+													src="./img/logo/logo.jpeg" />
+												<div class="review-desc shadow mb-3 rounded">
+													<div class="mb-3">
+														<h5>Rima</h5>
+														<ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+														</ul>
+													</div>
+													<p class="text-muted">
+														Masa ya baru 2 kali pemakaian komedo hitam-hitam kecil di sekitar hidung aku hilang, 
+														sama kulit bertekstur aku juga lumayan berkurang. Serius dah ini masker apaan wkwk.. 
+														Kalau habis persediaan maskerku di rumah, langsung mau repeat order lagi, dan coba varian lain. 
+														SUKSES SELALU PRAMITSS BEAUTY TEAM!
+													</p>
+												</div>
+											</div>
+											<div class="col-lg-4 d-none d-lg-block">
+												<img class="review-img rounded-circle shadow-1-strong mb-4"
+													src="./img/logo/logo.jpeg" />
+												<div class="review-desc shadow mb-3 rounded">
+													<div class="mb-3">
+														<h5>Latifa</h5>
+														<ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star fa-sm"></i></li>
+															<li><i class="fas fa-star-half-alt fa-sm"></i></li>
+														</ul>
+													</div>
+													<p class="text-muted">
+														Enak banget maskernya pas dipake ademm, wanginya nya unik gitu yaa, 
+														baru pemakaian sekali tapi jerawat udah rada mendingan, 
+														pas banget kulit lagi breakout karena pakai masker medis terus 12 jam sehari
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#slidingReviews" data-bs-slide="prev" style="padding-right:10%;">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#slidingReviews" data-bs-slide="next" style="padding-left:10%;">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="background-image: url('./img/home/background-1.png'); background-repeat: no-repeat; background-size: auto;">
+				<div id="contact" class="container page-section">        
+					<h1>Contact Us</h1>
+					<div class="container">
+						<div class="contact-box">
+							<p class="mb-3">Untuk reservasi dan informasi lanjut, silakan menghubungi kami di:</p>
+							<div class="row">
+								<div class="col-6">
+									<img src="./img/icons/icon-internet.png" alt="Internet" style="float: left; margin-right: 5px;" />
+									<div>                            
+										<h5 class="m-0">Situs</h5>
+										<p>www.pramitssbeauty.com</p>
+									</div>
+									<img src="./img/icons/icon-email.png" alt="Email" style="float: left; margin-right: 5px;" />
+									<div>                            
+										<h5 class="m-0">Email</h5>
+										<p>pramitssbeauty@gmail.com</p>
+									</div>
+								</div>
+								<div class="col-6">
+									<img src="./img/icons/icon-phone.png" alt="Phone" style="float: left; margin-right: 5px;" />
+									<div>                            
+										<h5 class="m-0">Telepon</h5>
+										<p>0895-3210-69330</p>
+									</div>
+									<img src="./img/icons/icon-case.png" alt="Store" style="float: left; margin-right: 5px;" />
+									<div>                            
+										<h5 class="m-0">Lokasi</h5>
+										<p>Taman Dramaga Permai 3, Kab. Bogor</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </main>
+    </div>
+
+    <script src="./lib/jquery/dist/jquery.min.js"></script>
+    <script src="./lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/fontawesome-6.1.1/js/all.min.js"></script>
+    <script src="./js/lightslider.js"></script>
+    <script src="./js/site.js"></script>
+</body>
+</html>

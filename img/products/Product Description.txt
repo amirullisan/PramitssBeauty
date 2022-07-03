@@ -1,0 +1,6 @@
+product-1.JPG	Varian coklat (big size 40gr)
+product-2.JPG	Varian coklat (travel size 15gr)
+product-3.JPG	Varian susu (big size 40gr)
+product-4.JPG	Varian susu (travel size 15gr)
+product-5.JPG	Varian teh hijau (big size 40gr)
+product-6.JPG	Varian teh hijau (travel size 15gr)
